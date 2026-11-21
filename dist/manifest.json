@@ -1,0 +1,21 @@
+{
+    "name": "环上终末地配置器",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "description": "环上终末地（明日方舟：终末地）资源包管理：默认资源包 + 实时抓取 + 下发",
+    "author": "SXM",
+    "website": "https://github.com/SXM081115",
+    "entry": "arkzmdgacher_art_plugin.wasm",
+    "wasi_version": 2,
+    "api_level": 3,
+    "permissions": [
+        "network",
+        "device",
+        "interconnect",
+        "register_interconnect_recv",
+        "thirdpartyapp",
+        "timer",
+        "clipboard.write"
+    ],
+    "additional_files": []
+}
